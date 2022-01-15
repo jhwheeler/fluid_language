@@ -9,7 +9,7 @@
 <div class="description">
 	<p class="text">{description}</p>
 
-	<p>
+	<p class="arrow">
 		{#if slug}
 			<a {href}>Read &rarr;</a>
 		{/if}
@@ -18,10 +18,14 @@
 
 <style>
 	.description {
-		margin-top: 0.2rem;
+		margin-top: 0.25rem;
 	}
 
 	p {
 		margin: 0;
+	}
+
+	.arrow {
+		margin-top: 0.25rem;
 	}
 </style>
