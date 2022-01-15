@@ -25,8 +25,8 @@
 
   export let posts;
 
-  const tag = $page.url.searchParams.get('tag')
-  const filteredPosts = tag ? posts.filter(p => p.tags.includes(tag)) : posts
+  $: tag = $page.url.searchParams.get('tag')
+  $: filteredPosts = tag ? posts.filter(p => p.tags.includes(tag)) : posts
 
 </script>
 
