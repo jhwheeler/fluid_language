@@ -2,7 +2,7 @@
 title: "The Power of Love"
 description: ""
 tags: "poem"
-date: "2022-01-15"
+date: "2021-12-31"
 published: true
 ---
 

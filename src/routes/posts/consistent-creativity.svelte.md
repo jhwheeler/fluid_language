@@ -2,7 +2,7 @@
 title: "Consistent Creativity"
 description: "How can you be more consistent in your creativity?"
 tags: "article,creativity"
-date: "2022-01-15"
+date: "2022-01-14"
 published: true
 ---
 
