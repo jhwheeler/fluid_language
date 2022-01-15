@@ -16,6 +16,7 @@
 </script>
 
 <script>
+  import { page } from '$app/stores'
   import PageHead from '$lib/components/PageHead.svelte';
   import Article from '$lib/components/Article.svelte';
   import ArticleTitle from '$lib/components/ArticleTitle.svelte';
@@ -24,11 +25,14 @@
 
   export let posts;
 
+  const tag = $page.url.searchParams.get('tag')
+  const filteredPosts = tag ? posts.filter(p => p.tags.includes(tag)) : posts
+
 </script>
 
 <PageHead description="Polyglot blog about philosophy, linguistics, and spirituality." />
 
-{#each posts as { slug, title, description, tags, date }}
+{#each filteredPosts as { slug, title, description, tags, date }}
   <Article>
     <ArticleTitle {slug} {title} />
     <ArticleDescription {description} {slug} />
