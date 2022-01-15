@@ -9,7 +9,7 @@
 <div class="tags">
   <span>tags: </span>
   {#each tags.split(',') as tag}
-    <span>#{tag} </span>
+    <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
   {/each}
 </div>
 
