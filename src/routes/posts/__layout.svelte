@@ -34,4 +34,4 @@
 
 <slot />
 
-<ArticleMeta author={post.author} date={post.date} />
+<ArticleMeta tags={post.tags} date={post.date} />
