@@ -1,9 +1,10 @@
 <script>
 	import { page } from '$app/stores';
+
 </script>
 
 <header>
-	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>SvelteKit + MDsveX Blog</h1></a>
+	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>Fluid Language</h1></a>
 </header>
 
 <main>
@@ -12,7 +13,7 @@
 
 <footer>
 	<p>
-		Copyright &#169; <a href="https://twitter.com/mehdi_vasigh">Mehdi Vasigh</a>, {new Date().getFullYear()}
+		Copyright &#169; <a href="https://twitter.com/Alacritas7">Jackson Holiday Wheeler</a>, { new Date().getFullYear() }
 	</p>
 </footer>
 

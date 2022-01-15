@@ -12,8 +12,7 @@ export default {
 		[
 			remarkGithub,
 			{
-				// Use your own repository
-				repository: 'https://github.com/mvasigh/sveltekit-mdsvex-blog.git'
+				repository: 'https://github.com/jhwheeler/fluid_language'
 			}
 		],
 		remarkAbbr
