@@ -11,12 +11,6 @@
 	<slot />
 </main>
 
-<footer>
-	<p>
-		Copyright &#169; <a href="https://twitter.com/Alacritas7">Jackson Holiday Wheeler</a>, { new Date().getFullYear() }
-	</p>
-</footer>
-
 <style>
 	:global(:root) {
 		--spacing-unit: 4px;
@@ -50,11 +44,11 @@
 		text-decoration: underline;
 	}
 
-	.small {
-		font-size: 1.6rem;
+	:global(h2) {
+		margin-top: 2rem;
 	}
 
-	footer {
-		margin-top: calc(var(--spacing-unit) * 8);
+	.small {
+		font-size: 1.6rem;
 	}
 </style>
