@@ -3,19 +3,25 @@
 	export let slug = '';
 
 	const href = slug && `/posts/${slug}`;
+
 </script>
 
-<p>
-	{description}
+<div class="description">
+	<p class="text">{description}</p>
 
-	{#if slug}
-		<a {href}>Read More &rarr;</a>
-	{/if}
-</p>
+	<p>
+		{#if slug}
+			<a {href}>Read &rarr;</a>
+		{/if}
+	</p>
+</div>
 
 <style>
+	.description {
+		margin-top: 0.2rem;
+	}
+
 	p {
 		margin: 0;
-		margin-bottom: calc(var(--spacing-unit) * 8);
 	}
 </style>
