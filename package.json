@@ -11,7 +11,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "next",
+    "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "mdsvex": "^0.9.3",
     "prettier": "~2.2.1",
