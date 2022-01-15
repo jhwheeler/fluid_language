@@ -13,12 +13,15 @@
   {/each}
 </div>
 
-
 <p class="date">{formattedDate}</p>
 
 <style>
   .tags {
     margin-top: 1rem;
+  }
+
+  .tags a {
+    font-weight: 500;
   }
 
   .date {

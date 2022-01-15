@@ -27,5 +27,6 @@
 
 	.arrow {
 		margin-top: 0.25rem;
+		font-weight: 500;
 	}
 </style>
