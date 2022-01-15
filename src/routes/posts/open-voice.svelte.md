@@ -17,7 +17,7 @@ Two tongues of the same flame,
 Giving strength in an eternal flow.
 
 
-My heart years for your embrace, O Lord.
+My heart yearns for your embrace, O Lord.
 
 To burn in the fire of your altar,
 

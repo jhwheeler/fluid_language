@@ -30,7 +30,7 @@ So many pains, struggles, traumas, and shadows are lying inside of us...this is 
 
 Honour your process. Dive deep within and feel into each step of the way, seeing the essential role it plays on your journey to the seed of your expression. Find it. Find this quality within that seeks rebirth...for it is the kindling to light the fire of your inspiraiton.
 
-When you falter, bring your awareness back to this shadow that wants to shine -- and see its potential, envision the light it wants to be come. Use this vision to fuel your action, driving you forward not with force, but with love. Love for the beauty you are creating. Love for the life you are crafting. Love for the transformation you are seeking.
+When you falter, bring your awareness back to this shadow that wants to shine -- and see its potential, envision the light it wants to become. Use this vision to fuel your action, driving you forward not with force, but with love. Love for the beauty you are creating. Love for the life you are crafting. Love for the transformation you are seeking.
 
 Yes, it takes courage to create, to rise above our fear of failure and imperfection. Yet it is precisely this fear of failure that wants to become greatness. Love the fear and you will transcend it. Love the shadow and you will transform it into light.
 
