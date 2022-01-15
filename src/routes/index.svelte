@@ -23,16 +23,16 @@
   import ArticleDescription from '$lib/components/ArticleDescription.svelte';
 
   export let posts;
+
 </script>
 
-<PageHead description="Polyglot blog about philosophy, linguistics, and spirituality.
-" />
+<PageHead description="Polyglot blog about philosophy, linguistics, and spirituality." />
 
-{#each posts as { slug, title, description, date }}
+{#each posts as { slug, title, description, tags, date }}
   <Article>
     <ArticleTitle {slug} {title} />
     <ArticleDescription {description} {slug} />
-    <ArticleMeta {date} />
+    <ArticleMeta {tags} {date} />
   </Article>
 {/each}
 

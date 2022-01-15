@@ -1,8 +1,7 @@
 ---
 title: "Open Voice"
-description: ""
-type: "poem"
-tags: "devotion, creativity"
+description: "Devotional poem expressing my love"
+tags: "poem,devotion,creativity"
 date: "2022-01-01"
 published: true
 ---

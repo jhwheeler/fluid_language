@@ -1,8 +1,7 @@
 ---
 title: "A New Voice"
 description: "What I'm calling in this New Year"
-type: "reflection"
-tags: "intentions"
+tags: "reflection,intentions"
 date: "2022-01-01"
 published: true
 ---
