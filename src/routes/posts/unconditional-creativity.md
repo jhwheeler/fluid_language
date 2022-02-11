@@ -3,6 +3,7 @@ title: "Unconditional Creativity"
 description: "Do you put conditions on your creativity? Do you let perfectionism block your way? Well, fuck that."
 tags: "poem,creativity"
 date: "2022-01-15"
+languages: "English"
 published: true
 ---
 
