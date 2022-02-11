@@ -9,7 +9,7 @@ published: true
 Nōx vēnit. Stēllae mihi salūtem dīcunt.    
 Flammae candelārum mē vōcant:   
 "Quis es, cum nōs mīrāris," rogant,   
-"Partemne animae coepis nostrae?   
+"Partemne animae capis nostrae?   
 Sīcut aqua maris nātūram accipit sōlis   
 Suamque facit, etinam possumus   
 Per tē vīvere pergere?"   
@@ -18,7 +18,7 @@ Per tē vīvere pergere?"
 Ignis animae crēscēns,   
 Animō aequō respīrō.   
 Etsī nātūra ignis   
-Semper mūtāns sit,   
+Semper mūtātur,   
 Mī pācem affert profundam.   
 
 
