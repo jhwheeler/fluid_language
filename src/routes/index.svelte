@@ -34,11 +34,11 @@
 
 <p>Hi, my name is <a href="https://www.instagram.com/jacksonholidaywheeler/" target="_blank">Jackson Holiday Wheeler</a>. Welcome to my blog about philosophy, linguistics, and spirituality.</p>
 
-{#each filteredPosts as { slug, title, description, tags, date }}
+{#each filteredPosts as { slug, title, description, tags, languages, date }}
   <Article>
     <ArticleTitle {slug} {title} />
     <ArticleDescription {description} {slug} />
-    <ArticleMeta {tags} {date} />
+    <ArticleMeta {tags} {date} {languages} />
   </Article>
 {/each}
 

@@ -26,12 +26,15 @@
   import ArticleMeta from '$lib/components/ArticleMeta.svelte';
 
   export let post;
+
+  $: ({ title, description, tags, date, languages } = post);
+
 </script>
 
-<PageHead title={post.title} description={post.description} />
+<PageHead {title} {description} />
 
-<ArticleTitle title={post.title} />
+<ArticleTitle {title} />
 
 <slot />
 
-<ArticleMeta tags={post.tags} date={post.date} />
+<ArticleMeta {tags} {date} {languages} />
