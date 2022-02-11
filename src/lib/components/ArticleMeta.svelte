@@ -7,30 +7,35 @@
 
 </script>
 
+<div class="meta">
+  <p class="date">{formattedDate}</p>
 
-{#if tags && tags.length}
-  <div class="list tags">
-    <span>tags: </span>
-    {#each tags.split(',') as tag}
-      <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
-    {/each}
-  </div>
-{/if}
+  {#if tags && tags.length}
+    <div class="list tags">
+      <span>tags: </span>
+      {#each tags.split(',') as tag}
+        <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
+      {/each}
+    </div>
+  {/if}
 
-{#if languages && languages.length}
-  <div class="languages">
-    <span>languages: </span>
-    {#each languages.split(',') as language}
-      <span>{language} </span>
-    {/each}
-  </div>
-{/if}
-
-<p class="date">{formattedDate}</p>
+  {#if languages && languages.length}
+    <div class="languages">
+      <span>languages: </span>
+      {#each languages.split(',') as language}
+        <span>{language} </span>
+      {/each}
+    </div>
+  {/if}
+</div>
 
 <style>
+  .meta {
+    margin-bottom: 3rem;
+  }
+
   .tags {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .tags a {
@@ -38,7 +43,7 @@
   }
 
   .date {
-    margin: 1rem 0 calc(var(--spacing-unit) * 9) 0;
+    margin-top: 1.5rem;
     color: var(--color-text-secondary);
   }
 </style>
