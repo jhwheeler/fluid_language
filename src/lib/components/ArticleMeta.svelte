@@ -7,22 +7,23 @@
 
 </script>
 
+
 {#if tags && tags.length}
-<div class="list tags">
-  <span>tags: </span>
-  {#each tags.split(',') as tag}
-    <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
-  {/each}
-</div>
+  <div class="list tags">
+    <span>tags: </span>
+    {#each tags.split(',') as tag}
+      <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
+    {/each}
+  </div>
 {/if}
 
 {#if languages && languages.length}
-<div class="languages">
-  <span>languages: </span>
-  {#each languages.split(',') as language}
-    <span>{language} </span>
-  {/each}
-</div>
+  <div class="languages">
+    <span>languages: </span>
+    {#each languages.split(',') as language}
+      <span>{language} </span>
+    {/each}
+  </div>
 {/if}
 
 <p class="date">{formattedDate}</p>

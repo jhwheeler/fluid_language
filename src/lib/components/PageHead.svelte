@@ -1,16 +1,16 @@
 <script>
-	export let title;
-	export let description;
+  export let title;
+  export let description;
 
-	const siteTitle = 'Fluid Language';
-	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+  const siteTitle = 'Fluid Language';
+  const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 
 </script>
 
 <svelte:head>
-	<title>{formattedTitle}</title>
+  <title>{formattedTitle}</title>
 
-	<meta property="og:site_name" content={siteTitle} />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={description} />
+  <meta property="og:site_name" content={siteTitle} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
 </svelte:head>

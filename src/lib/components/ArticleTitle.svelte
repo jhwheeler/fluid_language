@@ -1,42 +1,42 @@
 <script>
-	export let slug = '';
-	export let title;
+  export let slug = '';
+  export let title;
 
-	$: id = title
-		.toLowerCase()
-		.replace(/[^a-zA-Z ]/g, '')
-		.replace(/\s/g, '-');
+  $: id = title
+      .toLowerCase()
+      .replace(/[^a-zA-Z ]/g, '')
+      .replace(/\s/g, '-');
 
-	$: href = slug ? `/posts/${slug}` : '#' + id;
+  $: href = slug ? `/posts/${slug}` : '#' + id;
 
 </script>
 
 {#if slug}
-	<h3 class="heading" class:large={!slug} {id}>
-		<a {href}>
-			{title}
-		</a>
-	</h3>
+  <h3 class="heading" class:large={!slug} {id}>
+    <a {href}>
+      {title}
+    </a>
+  </h3>
 {:else}
-	<h2 class="heading" class:large={!slug} {id}>
-		<a {href}>
-			{title}
-		</a>
-	</h2>
+  <h2 class="heading" class:large={!slug} {id}>
+    <a {href}>
+      {title}
+    </a>
+  </h2>
 {/if}
 
 <style>
-	h2 {
-		margin: 0;
-	}
+  h2 {
+    margin: 0;
+  }
 
-	.heading {
-		margin: 0;
-		font-size: 1.8rem;
-	}
+  .heading {
+    margin: 0;
+    font-size: 1.8rem;
+  }
 
-	.large {
-		margin-top: calc(var(--spacing-unit) * 12);
-		font-size: 2.2rem;
-	}
+  .large {
+    margin-top: calc(var(--spacing-unit) * 12);
+    font-size: 2.2rem;
+  }
 </style>
