@@ -32,7 +32,7 @@
 
 <PageHead description="Polyglot blog about philosophy, linguistics, and spirituality." />
 
-<p>Hi, my name is <a href="https://www.instagram.com/jacksonholidaywheeler/" target="_blank">Jackson</a>. Welcome to my blog about philosophy, linguistics, and spirituality.</p>
+<p>Hi, my name is <a href="https://www.instagram.com/jacksonholidaywheeler/" target="_blank">Jackson Holiday Wheeler</a>. Welcome to my blog about philosophy, linguistics, and spirituality.</p>
 
 {#each filteredPosts as { slug, title, description, tags, date }}
   <Article>
