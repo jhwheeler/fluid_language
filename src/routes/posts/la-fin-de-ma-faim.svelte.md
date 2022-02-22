@@ -17,7 +17,8 @@ lire,
 parler...   
 
 
-J'ai faim. J'ai soif.   
+J'ai faim.   
+J'ai soif.   
 Faim des mots.   
 Soif des connaissances.   
 
