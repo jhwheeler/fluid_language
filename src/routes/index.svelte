@@ -22,6 +22,7 @@
   import ArticleTitle from '$lib/components/ArticleTitle.svelte';
   import ArticleMeta from '$lib/components/ArticleMeta.svelte';
   import ArticleDescription from '$lib/components/ArticleDescription.svelte';
+  import { GoogleAnalytics } from '@beyonk/svelte-google-analytics'
 
   export let posts;
 
@@ -31,6 +32,8 @@
 </script>
 
 <PageHead description="Polyglot blog about philosophy, linguistics, and spirituality." />
+
+<GoogleAnalytics properties={['G-PE8HPNX34N']} />
 
 <p>Hi, my name is <a href="https://www.instagram.com/jacksonholidaywheeler/" target="_blank">Jackson Holiday Wheeler</a>. Welcome to my blog about philosophy, linguistics, and spirituality.</p>
 
