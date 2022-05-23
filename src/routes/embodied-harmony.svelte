@@ -21,10 +21,6 @@
   </p>
 
   <p>
-    We have a system that can allow you to do that.
-  </p>
-
-  <p>
     Imagine knowing the best possible way for you to achieve profound insights, shape them into a simple action plan, and bring them into being with ease. Well, let me tell you something: this is completely within your reach. Over the past 40 years, my mother and I have developed a scientific method to determine the structure and flow of your creative process — and practical tools you can use to uplevel your productivity from a place of aligned purpose and intention.
   </p>
 </section>
