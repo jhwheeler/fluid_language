@@ -1,10 +1,16 @@
 <script>
   import { page } from '$app/stores';
 
+  $: HIDE_HEADER_ROUTES = [
+    '/embodied-harmony'
+  ]
+
 </script>
 
 <header>
-   <a href="/"><h1 class:small={$page.url.pathname !== '/'}>Fluid Language</h1></a>
+  {#if !HIDE_HEADER_ROUTES.includes($page.url.pathname)}
+    <a href="/"><h1 class:small={$page.url.pathname !== '/'}>Fluid Language</h1></a>
+  {/if}
 </header>
 
 <main>
