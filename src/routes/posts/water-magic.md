@@ -16,7 +16,7 @@ published: false
 	...this creates an image in my mind of a desire, an idea, a vector.
 	Yet, say that this desire is one I know deep within myself
 	to be unaligned with my highest good.
-	A methods of self-soothing,
+	A method of self-soothing,
 	self-sedation,
 	self-oblivion...
 	that I may believe to bring me 
