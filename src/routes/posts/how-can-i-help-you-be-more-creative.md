@@ -21,10 +21,8 @@ What is the action now? What can I do to cultivate this love? How can I nourish 
 
 It is this, here and now. Creating, writing, expressing. Fully feeling into my body and my heart and allowing the words to fall out of my fingers like so many drops from the top of a waterfall. This flow of creation is the key to expression and the key to love, connection, communion. This communion that we feel, this is the divine communion of lover and beloved, seer and seen, a never-ending dance of expression and reception, sharing and holding space.
 
-How I love to feel her, to hold her. How I love to hear her gales of laughter cascading over my heart...who am I to deserve such grace, such bliss? The purity of my gratitude is tested in every moment by this divine creature, this muse of mine. This muse of her own.
+How I can help myself be more creative?
 
-Now how can I help her be more creative, how I can help myself be more creative? Nourishing, encouraging, yes -- but what specifically?
-
-One of my gifts is structure. I can help provide mental structure to her, so her flow can be directed as she sees fit, as is most harmonious and beautiful in the moment. With a solid structure, she can release completely, surrender into her own power and fully express in her wild, raw dance of creation. The structure of Harmony, the invisible design that need not come to the forefront, yet is always there, on a subtle level, hidden in the background.
+I can create provide mental structure, so the flow can be directed as the heart sees fit, as is most harmonious and beautiful in the moment. With a solid structure, the heart can release completely, surrender into its own power and fully express in its wild, raw dance of creation. The structure of Harmony, the invisible design that need not come to the forefront, yet is always there, on a subtle level, hidden in the background.
 
 This is my ultimate dharma -- to be the pillars holding up the magnificent splendor and opulence of the temple. That is my role, that is my path -- to be the architect of the world's flourishing, the world's blossoming into its own power, beauty, and harmony.
