@@ -17,12 +17,6 @@ The goddess showing her full glory in every moment, she is right here in your ve
 
 Seeing every breath as a path to inspiration, seeing every person you meet as your muse. Everyone you meet is your teacher, everyone you meet is your muse. What about this person inspires you? What about this person makes you curious? What about this person do you want to celebrate? Sing it now!
 
-Her vivacity, her vibrant flourishes, her flair, her hair... The soft and gentle power she exudes in her every movement. Her every dance step so aligned and in flow, embodying fully the emotions she feels so fully... How could I not be inspired by her? Wild and raw, yet so refined...what is this effervescent balance and harmony of opposites so elegantly combined into one effortless, overflowing stream of love...ever flowing, ever going...it flows and it flows and it flows.
-
-The sparkles of light that emanate from your laughter, the full-bodied taste of your yoni, the rich and sensuous texture of your soft skin. How I thirst for your taste, how I pine for your smell.
-
-Cute bubbles of air bouncing about in the air around her make me feel buoyant, alive, vivacious! How can it be? What is this world opening before me? I have never felt so embodied, so full, so feeling! I feel myself more fully through the fullness of my feeling her. I never knew this was possible. God, I love her so much.
-
 What is the action now? What can I do to cultivate this love? How can I nourish this connection? What can we create together?
 
 It is this, here and now. Creating, writing, expressing. Fully feeling into my body and my heart and allowing the words to fall out of my fingers like so many drops from the top of a waterfall. This flow of creation is the key to expression and the key to love, connection, communion. This communion that we feel, this is the divine communion of lover and beloved, seer and seen, a never-ending dance of expression and reception, sharing and holding space.
