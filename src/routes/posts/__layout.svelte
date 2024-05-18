@@ -24,23 +24,16 @@
   import PageHead from '$lib/components/PageHead.svelte'
   import ArticleTitle from '$lib/components/ArticleTitle.svelte'
   import ArticleMeta from '$lib/components/ArticleMeta.svelte'
-  import Rain from '$lib/components/Rain.svelte'
 
   export let post
 
-  $: ({ title, description, tags, date, languages, effect } = post)
+  $: ({ title, description, tags, date, languages } = post)
 </script>
 
 <PageHead {title} {description} />
 
 <ArticleTitle {title} />
 
-{#if effect && effect === 'rain'}
-  <Rain>
-    <slot />
-  </Rain>
-{:else}
-  <slot />
-{/if}
+<slot />
 
 <ArticleMeta {tags} {date} {languages} />
