@@ -1,9 +1,9 @@
 ---
-title: "Quotes"
-description: "Pithy or loquacious, succinct or flowery... A miscellany of quotes that touch my heart and mind"
-tags: "quotes"
-languages: "English, Latin, French"
-date: "2022-02-14"
+title: 'Quotes'
+description: 'Pithy or loquacious, succinct or flowery... A miscellany of quotes that touch my heart and mind'
+tags: 'quotes'
+languages: 'English, Latin, French'
+date: '2022-02-14'
 published: true
 ---
 

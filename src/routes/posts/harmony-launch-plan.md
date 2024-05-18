@@ -1,9 +1,9 @@
 ---
-title: "Harmony Launch Plan"
-description: "Idea to reality!"
-tags: "notes"
-languages: "English"
-date: "2022-05-25"
+title: 'Harmony Launch Plan'
+description: 'Idea to reality!'
+tags: 'notes'
+languages: 'English'
+date: '2022-05-25'
 published: false
 ---
 

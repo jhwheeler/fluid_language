@@ -1,9 +1,9 @@
 ---
-title: "Ignis Animae"
-description: "Ode to fire 🎶 🔥"
-tags: "poem,devotion,creativity"
-languages: "Latin"
-date: "2022-01-16"
+title: 'Ignis Animae'
+description: 'Ode to fire 🎶 🔥'
+tags: 'poem,devotion,creativity'
+languages: 'Latin'
+date: '2022-01-16'
 published: true
 ---
 

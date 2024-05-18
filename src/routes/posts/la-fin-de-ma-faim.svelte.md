@@ -1,9 +1,9 @@
 ---
-title: "La fin de ma faim"
-description: "Parcours infini, cette vie...mais à quelle fin ?"
-tags: "poem"
-languages: "French"
-date: "2022-02-22"
+title: 'La fin de ma faim'
+description: 'Parcours infini, cette vie...mais à quelle fin ?'
+tags: 'poem'
+languages: 'French'
+date: '2022-02-22'
 published: true
 ---
 

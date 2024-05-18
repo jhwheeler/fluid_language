@@ -1,9 +1,9 @@
 ---
-title: "Notes"
-description: "Short notes on random topics; not for publication"
-tags: "quotes"
-languages: "Various"
-date: "2022-04-06"
+title: 'Notes'
+description: 'Short notes on random topics; not for publication'
+tags: 'quotes'
+languages: 'Various'
+date: '2022-04-06'
 published: false
 ---
 

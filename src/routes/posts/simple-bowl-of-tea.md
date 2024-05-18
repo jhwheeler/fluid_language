@@ -1,9 +1,9 @@
 ---
-title: "Simple Bowl of Tea"
-description: "Ode to the joys and gifts of tea"
-tags: "poem,tea"
-languages: "English"
-date: "2022-05-17"
+title: 'Simple Bowl of Tea'
+description: 'Ode to the joys and gifts of tea'
+tags: 'poem,tea'
+languages: 'English'
+date: '2022-05-17'
 published: true
 ---
 

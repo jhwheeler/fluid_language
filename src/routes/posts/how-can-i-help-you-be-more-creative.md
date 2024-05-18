@@ -1,9 +1,9 @@
 ---
-title: "How Can I Help You Be More Creative?"
-description: ""
-tags: "creativity, stream of consciousness"
-languages: "English"
-date: "2022-05-13"
+title: 'How Can I Help You Be More Creative?'
+description: ''
+tags: 'creativity, stream of consciousness'
+languages: 'English'
+date: '2022-05-13'
 published: false
 ---
 

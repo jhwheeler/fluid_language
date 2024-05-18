@@ -1,9 +1,9 @@
 ---
-title: "Open Voice"
-description: "Devotional poem expressing my love for the divine"
-tags: "poem,devotion,creativity"
-languages: "English"
-date: "2022-01-01"
+title: 'Open Voice'
+description: 'Devotional poem expressing my love for the divine'
+tags: 'poem,devotion,creativity'
+languages: 'English'
+date: '2022-01-01'
 published: true
 ---
  

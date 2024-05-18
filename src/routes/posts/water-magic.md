@@ -1,9 +1,9 @@
 ---
-title: "Water Magic"
+title: 'Water Magic'
 description: "Every time you want x, but you know it doesn't serve you -- drink water, and pray."
-tags: "notes"
-languages: "English"
-date: "2022-11-26"
+tags: 'notes'
+languages: 'English'
+date: '2022-11-26'
 published: false
 ---
 

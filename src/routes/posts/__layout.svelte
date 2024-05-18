@@ -3,32 +3,32 @@
    * @type {import('@sveltejs/kit').Load}
    */
   export async function load({ url, fetch }) {
-    const post = await fetch(`${url.pathname}.json`).then(res => res.json());
+    const post = await fetch(`${url.pathname}.json`).then((res) => res.json())
 
     if (!post || !post.published) {
       return {
         status: 404,
-        error: new Error('Post could not be found')
-      };
+        error: new Error('Post could not be found'),
+      }
     }
 
     return {
       props: {
-        post
-      }
-    };
+        post,
+      },
+    }
   }
 </script>
 
 <script>
-  import PageHead from '$lib/components/PageHead.svelte';
-  import ArticleTitle from '$lib/components/ArticleTitle.svelte';
-  import ArticleMeta from '$lib/components/ArticleMeta.svelte';
+  import PageHead from '$lib/components/PageHead.svelte'
+  import ArticleTitle from '$lib/components/ArticleTitle.svelte'
+  import ArticleMeta from '$lib/components/ArticleMeta.svelte'
+  import Rain from '$lib/components/Rain.svelte'
 
-  export let post;
+  export let post
 
-  $: ({ title, description, tags, date, languages } = post);
-
+  $: ({ title, description, tags, date, languages, effect } = post)
 </script>
 
 <PageHead {title} {description} />
