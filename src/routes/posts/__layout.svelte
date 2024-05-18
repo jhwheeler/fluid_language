@@ -35,6 +35,12 @@
 
 <ArticleTitle {title} />
 
-<slot />
+{#if effect && effect === 'rain'}
+  <Rain>
+    <slot />
+  </Rain>
+{:else}
+  <slot />
+{/if}
 
 <ArticleMeta {tags} {date} {languages} />
