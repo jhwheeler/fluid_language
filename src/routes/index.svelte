@@ -34,17 +34,17 @@
 </p>
 
 {#each filteredPosts as { slug, title, description, tags, languages, date }}
-  <Article>
+  <article>
     <ArticleTitle {slug} {title} />
     <ArticleDescription {description} {slug} />
     <ArticleMeta {tags} {date} {languages} />
-  </Article>
+  </article>
 {/each}
 
 <slot />
 
 <style>
-  a {
-    font-weight: 500;
+  article {
+    margin-bottom: calc(var(--spacing-unit) * 8);
   }
 </style>
