@@ -1,11 +1,8 @@
 <script>
   import '../app.css'
-  import { page } from '$app/stores';
+  import { page } from '$app/stores'
 
-  $: HIDE_HEADER_ROUTES = [
-    '/embodied-harmony'
-  ]
-
+  $: HIDE_HEADER_ROUTES = ['/embodied-harmony']
 </script>
 
 <header>
