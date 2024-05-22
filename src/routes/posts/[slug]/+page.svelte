@@ -11,7 +11,7 @@
 <div class="w-full flex justify-center p-4 md:p-8">
   <article class="lg:max-w-xl lg:w-fit w-full flex flex-col gap-4">
     <header>
-      <h1 class="text-2xl/10">{data.metadata.title}</h1>
+      <h1 class="text-3xl/tight">{data.metadata.title}</h1>
     </header>
 
     <main>
