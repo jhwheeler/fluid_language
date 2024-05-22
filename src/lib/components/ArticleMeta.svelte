@@ -1,49 +1,35 @@
 <script>
+  import { formatDate } from '$lib/utils';
+
   export let date;
   export let tags;
   export let languages;
-
-  const formattedDate = new Date(date).toDateString();
-
 </script>
 
-<div class="meta">
-  <p class="date">{formattedDate}</p>
-
+<div class="text-gray-300 lg:max-w-sm cursor-default pointer-events-none">
   {#if tags && tags.length}
-    <div class="list tags">
-      <span>tags: </span>
+    <div class="text-sm flex flex-row gap-1">
+      <span>tags:</span>
+
       {#each tags.split(',') as tag}
-        <span><a href={`/?tag=${tag}`}>#{tag}</a> </span>
+        <span>
+          <a href={`/?tag=${tag}`} class="text-teal-300">
+            #{tag}
+          </a>
+        </span>
       {/each}
     </div>
   {/if}
 
   {#if languages && languages.length}
-    <div class="languages">
-      <span>languages: </span>
+    <div class="text-sm flex flex-row gap-1">
+      <span>languages:</span>
+
       {#each languages.split(',') as language}
-        <span>{language} </span>
+        <span>{language}</span>
       {/each}
     </div>
   {/if}
+
+  <span class="text-xs">{formatDate(date)}</span>
 </div>
-
-<style>
-  .meta {
-    margin-bottom: 3rem;
-  }
-
-  .tags {
-    margin-top: 0.5rem;
-  }
-
-  .tags a {
-    font-weight: 500;
-  }
-
-  .date {
-    margin-top: 1.5rem;
-    color: var(--color-text-secondary);
-  }
-</style>
