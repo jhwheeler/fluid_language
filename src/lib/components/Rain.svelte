@@ -29,7 +29,7 @@
 
 <div class="rain pointer-events-none h-full w-full fixed top-0 left-0 z-10 overflow-clip">
   {#each Array(DROPLET_COUNT)
-    .fill()
+    .fill(0)
     .map((_) => generateDropletStyles()) as dropletStyles}
     <svg
       class="rain_drop h-8 w-8 absolute"
@@ -46,7 +46,7 @@
   {/each}
 </div>
 
-<div class="relative">
+<div class="relative z-50">
   <slot />
 </div>
 
