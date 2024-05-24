@@ -1,6 +1,6 @@
 <script>
   const DROPLET_COUNT = 250;
-  const BASE_SPEED = 1;
+  const BASE_SPEED = 1.3;
   const BASE_COLOR_VALUE = 190; // min value for RGB to ensure lightness
   const COLOR_RANGE = 255 - BASE_COLOR_VALUE; // range for random addition to base value
   const REDNESS_MULTIPLIER = 0.6;
