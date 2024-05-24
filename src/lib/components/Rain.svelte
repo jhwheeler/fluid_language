@@ -46,7 +46,9 @@
   {/each}
 </div>
 
-<div class="relative z-50">
+<div
+  class="relative z-20 bg-slate-900 pr-4 py-4 shadow-[0_0_3rem_2rem_rgba(15,23,42,1)] bg-opacity-95"
+>
   <slot />
 </div>
 
