@@ -22,7 +22,9 @@
   });
 </script>
 
-<main class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto">
+<main
+  class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto bg-gradient-to-b from-teal to-sand"
+>
   {#if showAnimations !== null}
     <header class="mb-6 lg:mb-8 flex flex-col items-center w-full justify-center gap-4 text-center">
       <h1 class="text-4xl uppercase bg-clip-text text-transparent bg-cover" class:showAnimations>
@@ -60,15 +62,6 @@
 </main>
 
 <style>
-  :root {
-    --teal: #0095ba;
-    --sand: #f5f5dc;
-  }
-
-  main {
-    background: linear-gradient(var(--teal), var(--sand));
-  }
-
   h1 {
     background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGU5YjZzbGNobHFwd2xmaHQ0ZHJwbWVtMWpvdG5oYXRldW03ZjR3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8rEiAAlQD9gOxarV2B/giphy-downsized-large.gif);
   }
