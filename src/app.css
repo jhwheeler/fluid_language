@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
   article main p {
-    @apply my-4 text-sm;
+    @apply my-4 text-sm text-slate-700;
   }
 
   article main h2 {
-    @apply text-2xl/tight mt-8;
+    @apply text-2xl/tight mt-8 text-slate-700;
   }
 }
