@@ -15,12 +15,10 @@
       : data?.posts || [];
 
   onMount(() => {
-    if ($hasSeenIndexPageAnimations) {
-      showAnimations = false;
-    } else {
-      showAnimations = true;
-      hasSeenIndexPageAnimations.set(true);
-    }
+    // Hide animations if the user has seen them already or has set the `hideAnimations` query param to true
+    showAnimations =
+      !$hasSeenIndexPageAnimations && $page.url.searchParams.get('hideAnimations') !== 'true';
+    hasSeenIndexPageAnimations.set(true);
   });
 </script>
 
