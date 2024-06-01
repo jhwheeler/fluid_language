@@ -9,7 +9,7 @@
 </svelte:head>
 
 <main
-  class="w-full flex justify-center p-4 md:p-8 bg-gradient-to-b from-teal to-sand h-dvh overflow-y-auto"
+  class="w-full flex justify-center p-4 md:p-8 bg-gradient-to-b from-sea to-sand min-h-dvh overflow-y-auto"
 >
   <article class="lg:max-w-xl lg:w-fit w-full flex flex-col gap-4">
     <header>

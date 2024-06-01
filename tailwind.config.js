@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        teal: '#0095ba',
+        sea: '#0095ba',
         sand: '#f5f5dc',
       },
     },

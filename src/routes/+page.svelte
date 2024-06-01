@@ -23,7 +23,7 @@
 </script>
 
 <main
-  class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto bg-gradient-to-b from-teal to-sand"
+  class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto bg-gradient-to-b from-sea to-sand"
 >
   {#if showAnimations !== null}
     <header class="mb-6 lg:mb-8 flex flex-col items-center w-full justify-center gap-4 text-center">
