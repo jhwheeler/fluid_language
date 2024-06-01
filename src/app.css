@@ -14,4 +14,8 @@
   article main h2 {
     @apply text-2xl/tight mt-8 text-slate-700;
   }
+
+  a {
+    @apply text-teal-600;
+  }
 }

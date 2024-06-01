@@ -13,7 +13,7 @@
 
       {#each tags.split(',') as tag}
         <span>
-          <a href={`/?tag=${tag}`} class="text-teal-300">
+          <a href={`/?tag=${tag}`}>
             #{tag}
           </a>
         </span>
