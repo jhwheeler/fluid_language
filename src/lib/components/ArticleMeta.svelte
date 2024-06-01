@@ -6,7 +6,7 @@
   export let languages;
 </script>
 
-<div class="text-gray-300 lg:max-w-sm cursor-default pointer-events-none">
+<div class="text-gray-600 lg:max-w-sm cursor-default pointer-events-none">
   {#if tags && tags.length}
     <div class="text-sm flex flex-row gap-1">
       <span>tags:</span>
