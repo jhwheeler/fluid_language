@@ -1,22 +1,18 @@
 import preprocess from 'svelte-preprocess'
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import mdsvexConfig from './mdsvex.config.js'
 import { mdsvex } from 'mdsvex'
-
-/** @type {import('mdsvex').MdsvexOptions} */
-const mdsvexOptions = {
-  extensions: ['.svelte', '.md']
-}
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  extensions: ['.svelte', '.md'],
+  extensions: ['.svelte', ...mdsvexConfig.extensions],
   preprocess: [
     vitePreprocess(),
     preprocess({
       postcss: true
     }),
-    mdsvex(mdsvexOptions)
+    mdsvex(mdsvexConfig),
   ],
   kit: {
     adapter: adapter()
