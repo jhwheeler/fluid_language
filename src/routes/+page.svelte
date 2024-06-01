@@ -46,7 +46,7 @@
       {#each filteredPosts as { slug, title, description, tags, languages, date }}
         <a href={`posts/${slug}`}>
           <article
-            class="flex flex-col gap-6 bg-amber-50 p-4 rounded-sm w-full text-slate-600 h-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:bg-opacity-30 transition-opacity transform duration-300"
+            class="flex flex-col gap-6 bg-amber-50 p-4 rounded-sm w-full text-slate-800 h-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:bg-opacity-30 transition-opacity transform duration-300"
           >
             <div class="w-fit lg:max-w-sm">
               <h3 class="text-xl" id={slug}>{title}</h3>
