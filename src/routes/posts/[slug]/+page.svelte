@@ -8,7 +8,9 @@
   <title>{data.metadata.title}</title>
 </svelte:head>
 
-<div class="w-full flex justify-center p-4 md:p-8">
+<main
+  class="w-full flex justify-center p-4 md:p-8 bg-gradient-to-b from-teal to-sand h-dvh overflow-y-auto"
+>
   <article class="lg:max-w-xl lg:w-fit w-full flex flex-col gap-4">
     <header>
       <h1 class="text-3xl/tight">{data.metadata.title}</h1>
@@ -24,4 +26,4 @@
       <a href="/" class="text-sm/4">&larr; Back</a>
     </footer>
   </article>
-</div>
+</main>
