@@ -1,12 +1,11 @@
 <script lang="ts">
   import ArticleMeta from '$lib/components/ArticleMeta.svelte';
-  import { onMount } from 'svelte';
+  import type { Post } from '$lib/types';
+  import { type ComponentType, onMount } from 'svelte';
 
   export let post: Post;
 
-  let Component;
-
-  $: console.log('post', post);
+  let Component: ComponentType | undefined;
 
   const { slug, title, description, tags, date, languages, previewComponent } = post;
 
@@ -28,6 +27,8 @@
 
     <ArticleMeta {tags} {date} {languages} />
 
-    <svelte:component this={Component} />
+    {#if previewComponent}
+      <svelte:component this={Component} />
+    {/if}
   </article>
 </a>

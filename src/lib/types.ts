@@ -6,4 +6,5 @@ export type Post = {
   tags: string[]
   date: string
   languages: string[]
+  previewComponent?: string
 }
