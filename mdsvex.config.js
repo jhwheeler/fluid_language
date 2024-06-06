@@ -1,10 +1,9 @@
-import { defineMDSveXConfig as defineConfig } from 'mdsvex'
-import relativeImages from 'mdsvex-relative-images'
-import autolinkHeadings from 'rehype-autolink-headings'
-import slugPlugin from 'rehype-slug'
-import remarkExternalLinks from 'remark-external-links'
-import preview, { htmlFormatter, textFormatter } from 'remark-preview'
-import readingTime from 'remark-reading-time'
+import { defineMDSveXConfig as defineConfig } from 'mdsvex';
+import relativeImages from 'mdsvex-relative-images';
+import autolinkHeadings from 'rehype-autolink-headings';
+import slugPlugin from 'rehype-slug';
+import remarkExternalLinks from 'remark-external-links';
+import preview, { htmlFormatter, textFormatter } from 'remark-preview';
 
 const config = defineConfig({
   extensions: ['.svelte.md', '.md', '.svx'],
@@ -13,9 +12,6 @@ const config = defineConfig({
     dashes: 'oldschool',
   },
   remarkPlugins: [
-    // adds a `readingTime` frontmatter attribute
-    readingTime(),
-
     // Add a text preview snippet (no formatting) so we can use it in the meta description tag
     preview(textFormatter({ length: 250, maxBlocks: 2 })),
 
@@ -27,7 +23,7 @@ const config = defineConfig({
       }),
       {
         attribute: 'previewHtml',
-      }
+      },
     ),
     // external links open in a new tab
     [remarkExternalLinks, { target: '_blank', rel: 'noopener' }],
@@ -42,6 +38,6 @@ const config = defineConfig({
       },
     ],
   ],
-})
+});
 
-export default config
+export default config;
