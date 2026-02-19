@@ -7,4 +7,7 @@ export type Post = {
   date: string
   languages: string[]
   previewComponent?: string
+  source?: 'local' | 'substack'
+  substackUrl?: string
+  htmlContent?: string
 }
