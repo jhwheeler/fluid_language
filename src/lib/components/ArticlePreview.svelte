@@ -7,7 +7,7 @@
 
   let Component: ComponentType | undefined;
 
-  const { slug, title, description, tags, date, languages, previewComponent } = post;
+  const { slug, title, description, tags, date, languages, previewComponent, source } = post;
 
   onMount(async () => {
     if (previewComponent) {
@@ -21,7 +21,12 @@
     class="flex flex-col gap-6 bg-amber-50 p-4 rounded-sm w-full text-slate-800 h-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:bg-opacity-30 transition-opacity transform duration-300"
   >
     <div class="w-fit lg:max-w-sm">
-      <h3 class="text-xl" id={slug}>{title}</h3>
+      <div class="flex items-center gap-2">
+        <h3 class="text-xl" id={slug}>{title}</h3>
+        {#if source === 'substack'}
+          <span class="text-xs bg-orange-400 bg-opacity-40 px-1.5 py-0.5 rounded whitespace-nowrap">Substack</span>
+        {/if}
+      </div>
       <span class="text-sm">{description}</span>
     </div>
 

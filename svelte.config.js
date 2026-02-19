@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess'
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import mdsvexConfig from './mdsvex.config.js'
 import { mdsvex } from 'mdsvex'

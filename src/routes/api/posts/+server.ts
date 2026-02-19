@@ -1,8 +1,9 @@
 import { json } from '@sveltejs/kit';
 import type { Post } from '$lib/types';
+import { fetchSubstackPosts } from '$lib/substack';
 
-async function getPosts() {
-  let posts: Post[] = [];
+async function getLocalPosts(): Promise<Post[]> {
+  const posts: Post[] = [];
 
   const paths = import.meta.glob('/src/posts/*.md', { eager: true });
 
@@ -12,17 +13,22 @@ async function getPosts() {
 
     if (file && typeof file === 'object' && 'metadata' in file && slug) {
       const metadata = file.metadata as Omit<Post, 'slug'>;
-      const post = { ...metadata, slug } satisfies Post;
+      const post = { ...metadata, slug, source: 'local' as const } satisfies Post;
       post.published && posts.push(post);
     }
   }
-
-  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return posts;
 }
 
 export async function GET() {
-  const posts = await getPosts();
-  return json(posts);
+  const [localPosts, substackPosts] = await Promise.all([
+    getLocalPosts(),
+    fetchSubstackPosts()
+  ]);
+
+  const allPosts = [...localPosts, ...substackPosts];
+  allPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  return json(allPosts);
 }
