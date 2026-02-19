@@ -9,3 +9,4 @@ tags
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+.vercel
