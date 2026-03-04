@@ -7,7 +7,7 @@
 
   export let data;
 
-  let mounted = false;
+  let mounted = !browser;
   let showAnimations = false;
 
   $: tag = browser ? $page.url.searchParams.get('tag') : null;

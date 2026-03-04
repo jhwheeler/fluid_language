@@ -4,6 +4,8 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import mdsvexConfig from './mdsvex.config.js';
 import { mdsvex } from 'mdsvex';
 
+const dev = process.argv.includes('dev') || process.argv.includes('preview');
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   extensions: ['.svelte', ...mdsvexConfig.extensions],
@@ -19,7 +21,7 @@ const config = {
       fallback: '404.html',
     }),
     paths: {
-      base: process.argv.includes('dev') ? '' : '/fluid_language',
+      base: dev ? '' : '/fluid_language',
     },
   },
 };
