@@ -1,8 +1,10 @@
-import preprocess from 'svelte-preprocess'
-import adapter from '@sveltejs/adapter-auto';
+import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import mdsvexConfig from './mdsvex.config.js'
-import { mdsvex } from 'mdsvex'
+import mdsvexConfig from './mdsvex.config.js';
+import { mdsvex } from 'mdsvex';
+
+const dev = process.argv.includes('dev') || process.argv.includes('preview');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,12 +12,17 @@ const config = {
   preprocess: [
     vitePreprocess(),
     preprocess({
-      postcss: true
+      postcss: true,
     }),
     mdsvex(mdsvexConfig),
   ],
   kit: {
-    adapter: adapter()
+    adapter: adapter({
+      fallback: '404.html',
+    }),
+    paths: {
+      base: dev ? '' : '/fluid_language',
+    },
   },
 };
 

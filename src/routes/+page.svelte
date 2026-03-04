@@ -2,30 +2,32 @@
   import ArticlePreview from '$lib/components/ArticlePreview.svelte';
   import { hasSeenIndexPageAnimations } from '$lib/stores';
   import { page } from '$app/stores';
+  import { browser } from '$app/environment';
   import { onMount } from 'svelte';
 
   export let data;
 
-  let showAnimations: boolean | null = null;
+  let mounted = !browser;
+  let showAnimations = false;
 
-  $: tag = $page.url.searchParams.get('tag');
+  $: tag = browser ? $page.url.searchParams.get('tag') : null;
   $: filteredPosts =
     tag && data?.posts?.length
       ? data?.posts?.filter((p) => p.tags.includes(tag))
       : data?.posts || [];
 
   onMount(() => {
-    // Hide animations if the user has seen them already or has set the `hideAnimations` query param to true
     showAnimations =
       !$hasSeenIndexPageAnimations && $page.url.searchParams.get('hideAnimations') !== 'true';
     hasSeenIndexPageAnimations.set(true);
+    mounted = true;
   });
 </script>
 
 <main
   class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto bg-gradient-to-b from-sea to-sand"
 >
-  {#if showAnimations !== null}
+  {#if mounted}
     <header class="mb-6 lg:mb-8 flex flex-col items-center w-full justify-center gap-4 text-center">
       <h1 class="text-4xl uppercase bg-clip-text text-transparent bg-cover" class:showAnimations>
         Fluid Language

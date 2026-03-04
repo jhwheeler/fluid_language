@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import { formatDate } from '$lib/utils';
 
   export let date;
@@ -13,7 +14,7 @@
 
       {#each tags.split(',') as tag}
         <span>
-          <a href={`/?tag=${tag}`}>
+          <a href={`${base}/?tag=${tag}`}>
             #{tag}
           </a>
         </span>

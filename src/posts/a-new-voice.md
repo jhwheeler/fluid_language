@@ -21,4 +21,4 @@ I carry with me a deepening of my ability to integrate ideas and traditions toge
 
 I call in discipline to keep me focused and consistent in my creativity. I call in a teaching role in my community, sharing the wisdom and knowledge God has given me. I call in overflowing creativity to share with others. I call in the true expression of my voice as a vehicle for the Divine.
 
-These reflections inspired a poem: [Open Voice](/posts/open-voice).
+These reflections inspired a poem: [Open Voice](./open-voice).

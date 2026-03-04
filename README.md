@@ -1,5 +1,7 @@
 # Fluid Language
 
+[Visit the blog](https://jhwheeler.github.io/fluid_language/)
+
 My personal blog, built with [Svelte](https://svelte.dev), [SvelteKit](https://kit.svelte.dev) and [MDsveX](https://mdsvex.com).
 
 In this multi-lingual blog, I write about various topics, including philosophy, linguistics, and spirituality.
