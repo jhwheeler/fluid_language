@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import ArticleMeta from '$lib/components/ArticleMeta.svelte';
   import type { Post } from '$lib/types';
   import { type ComponentType, onMount } from 'svelte';
@@ -16,7 +17,7 @@
   });
 </script>
 
-<a href={`posts/${slug}`}>
+<a href={`${base}/posts/${slug}`}>
   <article
     class="flex flex-col gap-6 bg-amber-50 p-4 rounded-sm w-full text-slate-800 h-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:bg-opacity-30 transition-opacity transform duration-300"
   >

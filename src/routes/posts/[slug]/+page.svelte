@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import ArticleMeta from '$lib/components/ArticleMeta.svelte';
 
   export let data;
@@ -23,7 +24,7 @@
     <footer class="mt-6 flex flex-col gap-3">
       <ArticleMeta {...data.metadata} />
 
-      <a href="/" class="text-sm/4">&larr; Back</a>
+      <a href="{base}/" class="text-sm/4">&larr; Back</a>
     </footer>
   </article>
 </main>
