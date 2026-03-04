@@ -27,7 +27,7 @@
 <main
   class="p-4 md:p-8 flex flex-col items-center w-full h-dvh overflow-y-auto bg-gradient-to-b from-sea to-sand"
 >
-  {#if mounted || !browser}
+  {#if mounted}
     <header class="mb-6 lg:mb-8 flex flex-col items-center w-full justify-center gap-4 text-center">
       <h1 class="text-4xl uppercase bg-clip-text text-transparent bg-cover" class:showAnimations>
         Fluid Language

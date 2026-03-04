@@ -17,9 +17,9 @@
       <h1 class="text-3xl/tight">{data.metadata.title}</h1>
     </header>
 
-    <main>
+    <div>
       <svelte:component this={data.content} />
-    </main>
+    </div>
 
     <footer class="mt-6 flex flex-col gap-3">
       <ArticleMeta {...data.metadata} />
